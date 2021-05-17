@@ -1,2 +1,2 @@
-# texte-de-fun-o-javascript
-testar javascript
+# texte-javascript
+testar as funções de javascript
