@@ -1,0 +1,37 @@
+body {
+    margin: 10vh; /*margem*/
+    height: 30vh;
+    background: #23232e;
+    
+}
+
+button {
+    background-color: Transparent;
+    border: 0;
+    color: #fff;
+    cursor:pointer;
+    font-size: 25px;
+    
+  }
+
+  button::after {
+    content: "" ;
+    display: block;
+    width: 0%;
+    height: 5px;
+    background: blueviolet;
+    transition: 0.5s ease-in-out;
+
+  }
+
+button:hover::after {
+    width: 100%;
+  }
+.quadrado{
+  width: 200px;
+  height: 200px;
+  background: #23232e;
+  margin-bottom: 25px;
+
+ }
+
