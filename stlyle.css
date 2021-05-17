@@ -24,7 +24,7 @@ button {
 
   }
 
-button:hover::after {
+  button:hover::after {
     width: 100%;
   }
 .quadrado{
